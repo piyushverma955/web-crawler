@@ -24,7 +24,7 @@ hyperlinks that belong to ​ medium.com​ and store them in a MongoDB database
     2. docker run -p 3000:3000  --network host -d <your username>/node-web-app  
 
 # To Retrieve the already parsed urls-
-   Hit the URL in your browser - localhost:`${portOnWhichYourLocalServerIsRunning}`/
+   Hit the URL in your browser - localhost:`${portOnWhichYourLocalServerIsRunning}`/getData
 
 # To Start the Process of Scraping afresh-
    Hit the URL in your browser - localhost:`${portOnWhichYourLocalServerIsRunning}`/crawl
